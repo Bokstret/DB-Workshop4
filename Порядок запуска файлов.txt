@@ -2,9 +2,9 @@
 2.populate.sql
 3.view.sql
 4.procedure.sql
-5.function.sql(дополнительные условия написаны в самом файле function)
-6.package.sql(дополнительные условия написаны в самом файле package)
-7.run.sql(дополнительные условия написаны в самом файле run)
-8.trigger.sql(дополнительные условия написаны в самом файле run)
+5.function.sql
+6.package.sql
+7.run.sql
+8.trigger.sql
 
 ЕСЛИ ЗАПУСТИТЬ ФАЙЛ RUN ДО СОЗДАНИЯ ПАКЕТА, ТО ФУНКЦИЯ НЕ БУДЕТ РАБОТАТЬ
