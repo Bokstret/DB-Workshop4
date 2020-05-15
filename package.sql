@@ -20,9 +20,7 @@ CREATE OR REPLACE PACKAGE my_package IS
 
 END my_package;
 
----------------------------------------------------
---СНАЧАЛА ЗАПУСТИТЬ ВЕРХНЮЮ ЧАСТЬ КОДА, ПОТОМ НИЖНЮЮ.
----------------------------------------------------
+/
 
 
 create or replace PACKAGE BODY my_package IS
