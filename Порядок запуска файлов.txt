@@ -4,7 +4,7 @@
 4.procedure.sql
 5.function.sql
 6.package.sql
-7.run.sql
-8.trigger.sql
+7.trigger.sql
+8.run.sql
 
 ЕСЛИ ЗАПУСТИТЬ ФАЙЛ RUN ДО СОЗДАНИЯ ПАКЕТА, ТО ФУНКЦИЯ НЕ БУДЕТ РАБОТАТЬ
