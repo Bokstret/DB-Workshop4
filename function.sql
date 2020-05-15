@@ -1,17 +1,12 @@
----------------------------------------------
---КАЖДЫЙ CREATE ЗАПУСКАТЬ ОТДЕЛЬНО ПО ОЧЕРЕДИ
----------------------------------------------
-
-
 CREATE TYPE rowprojects IS OBJECT (
         projectid      NUMBER(38),
         title   VARCHAR(100),
         main_category VARCHAR(100)
     );
-
+/
 CREATE TYPE tblprojects IS
         TABLE OF rowprojects;
-
+/
 CREATE OR REPLACE FUNCTION chooseproject (
         project_country   VARCHAR,
         project_goal      FLOAT
