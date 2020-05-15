@@ -6,9 +6,3 @@ BEGIN
     :new.country := 'Unknown';
 END;
 
-/
-
-
-INSERT  into project(projectid, title, main_category, owner) VALUES (100,'Is it','Music','Bob'); --страна проекта будет неизвестна
-INSERT  into project(projectid, title, main_category, country, owner) VALUES (101,'Me','Music', 'US', 'Bob');--страна проекта будет известна
-INSERT  into project(projectid, title, main_category, owner) VALUES (102,'You are looking for','Music','Bob');--страна проекта будет неизвестна
