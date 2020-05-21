@@ -18,8 +18,10 @@ BEGIN
     SELECT
         COUNT(*)
     INTO ownerstatus
+
     FROM
         projectowner
+
     WHERE
         owner LIKE owner_name;
 
